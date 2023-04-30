@@ -1,5 +1,5 @@
 function FindProxyForURL(url, host) {
   if (shExpMatch(url, ".*/overseas/check.*")) return "DIRECT";
 
-  return "PROXY 127.0.0.1";
+  return "PROXY 101.229.242.73:9002";
 }
